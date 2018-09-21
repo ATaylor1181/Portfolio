@@ -104,8 +104,9 @@ p {
     max-height: 150px;
 }
 
-#section-b h2 {
+#section-b h2, h3 {
     justify-content: center;
+    color: red;
 }
 
 #section-b ul {
