@@ -71,7 +71,7 @@ p {
     justify-content: space-around;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     opacity: 0.7;
 }
 
@@ -106,6 +106,10 @@ p {
 
 #section-b h2, h3 {
     justify-content: center;
+    
+}
+
+#section-b h3, #section-c h3 {
     color: red;
 }
 
@@ -234,5 +238,98 @@ p {
         width: 31%;
     }
 
+    /* Swirly */
+
+    .swirl{
+        width:400px;
+        height:400px;
+        position:relative;
+        filter:blur(4px) hue-rotate(0deg);
+        margin:40px;
+        animation:swirlSpin 0.5s linear 10;
+        display:inline-block;
+      }
+      
+      .swirl div{
+        border:8px solid #007353;
+        border-width:8px 0 0 0;
+        border-radius:50%;
+        position:absolute;
+        opacity:0;
+      }
+      
+      .swirl div:first-child{
+        width:400px;
+        height:400px;
+        animation:swirlOpacityFirst 3s ease;
+      }
+      
+      .swirl div:nth-child(2){
+        width:300px;
+        height:300px;
+        top:50px;
+        left:50px;
+        transform:rotate(50deg);
+        animation:swirlOpacitySecond 4s ease;
+      }
+      
+      .swirl div:nth-child(3){
+        width:200px;
+        height:200px;
+        top:100px;
+        left:100px;
+        transform:rotate(100deg);
+        animation:swirlOpacityThird 5s ease;
+      }
+      
+      @keyframes swirlOpacityFirst{
+        8%,24%,72%,88%{opacity:1}
+        32%,64%{opacity:0}
+      }
+      
+      @keyframes swirlOpacitySecond{
+        8%,40%,56%,88%{opacity:0}
+        16%,32%,64%,80%{opacity:1}
+      }
+      
+      @keyframes swirlOpacityThird{
+        24%,40%,56%,72%{opacity:1}
+        16%,48%,80%{opacity:0}
+      }
+      
+      .swirl.swirlIn div:first-child{
+        animation:swirlInOpacityFirst 5s ease;
+      }
+      
+      .swirl.swirlIn div:nth-child(2){
+        animation:swirlInOpacitySecond 5s ease;
+      }
+      
+      .swirl.swirlIn div:nth-child(3){
+        animation:swirlInOpacityThird 5s ease;
+      }
+      
+      @keyframes swirlSpin{
+        to{
+          transform:rotate(360deg);
+          filter:blur(2px);
+        }
+      }
+      
+      @keyframes swirlInOpacityFirst{
+        10%,50%{opacity:1}
+        70%{opacity:0}
+      }
+      
+      @keyframes swirlInOpacitySecond{
+        10%,90%{opacity:0}
+        30%,70%{opacity:1}
+      }
+      
+      @keyframes swirlInOpacityThird{
+        30%{opacity:0}
+        50%,90%{opacity:1} 
+      }
+      
     
 }
