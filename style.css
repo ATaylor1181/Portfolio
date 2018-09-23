@@ -68,7 +68,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: #333 url('/img/Eldritch\ Logo.png');
+    background: #333 url('img/Eldritch\ Logo.png');
     background-position: center;
     background-size: cover;
     justify-content: space-around;
