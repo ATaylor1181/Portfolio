@@ -254,7 +254,7 @@ p {
       }
       
       .swirl div{
-        border:8px solid #007353;
+        border:8px solid #fff;
         border-width:8px 0 0 0;
         border-radius:50%;
         position:absolute;

@@ -57,7 +57,26 @@ h1, h2, h3 {
 
 <h3> Key events in the history of the internet </h3>
 
-The internet has not always been the gargantuan beast we know it as today. It began a long time ago, the 1960's in fact, but that was it's infancy, let's skip forward a little.
+<p>The internet has not always been the gargantuan beast we know it as today. It began a long time ago, the 1960's in fact, but that was it's infancy, let's skip forward a little.</p>
 
-While computers were becoming more widely used it wouldn't be until the 1980's that the internet as the average person thinks of it would be born. In 1981 CSNET was created, this allowed computer science networks at various universities to connect and share information. It wouldn't be until 1982 however when TCP/IP was coined that the process would become a much simpler affair.
+<p>While computers were becoming more widely used it wouldn't be until the 1980's that the internet as the average person thinks of it would be born. In 1981 CSNET was created, this allowed computer science networks at various universities to connect and share information. It wouldn't be until 1982 however when TCP/IP was coined that the process would become a much simpler affair. Skipping ahead a little further until 1990 when the first web browser, WorldWideWeb, was developed. It wouldn't be until 1991 when WWW would become publicly available.  </p>
 
+<p>All this would culminate in 1995 when ISPs would begin regularly selling their services to the average consumer, and almost 20 years later, here we are.</p>
+
+<h3> The relationship between fundamental aspects of the Internet </h3>
+
+<p>As far as the fundamental aspects of the internet are concerned, we should probably start with web servers.</p>
+
+<p>A web server is a machine with the distinct purpose of storing and allowing access to a web page or application, or in some cases multiple of either. A user can access the stored data via use of a domain.</p>
+
+<p>Domains in this instance refer to the name of something on the web. While the actual name is a series of numbers these aren't easy for the human brain to keep track of, so we needed a method to make it easy for meat based lifeforms to keep straight, hence domains were born.</p>
+
+<p>Something needed to be produced to interpret the data and make navigation simple for the layman, the solution to this were web browsers. Programs whose job it is to load and interpret the data into something easy to understand.</p>
+
+<h3>One aspects development</h3>
+
+<p>On the 5th of September, 1995, ESPN streamed a live baseball radio broadcast to it's subscribers, the first of it's kind and beginning what would become one of the most competitive media markets of the following decades, streaming media.</p>
+
+<p>While audio streaming was cutting edge at the time it would be almost a decade before video streaming became something the average user could do simply because of the technological limitations of the time, 56k modems weren't great at moving video around. Macromedia however would change all that with their invention of Flash Player, allowing for real time correction of streaming quality and only downloading small chunks at a time.</p>
+
+<p>This all culminates in the modern day where the majority of entertainment users experience is acquired via live streaming, whether TV series, video games, sports or live footage from the international space station, something that in 1995 was just a dream.</p>
