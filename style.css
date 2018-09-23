@@ -5,9 +5,11 @@
     src: url('img/JMH\ Arkham.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
     margin:0;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     background: #333;
     color: #fff;
     font-size: 1.1em;
@@ -51,6 +53,7 @@ h1, h2, h3 {
 p {
     margin: 0;
     padding: 1em 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -170,7 +173,7 @@ p {
 
 #main-footer {
     padding: 2em;
-    background: #000;
+    background: #333;
     color: #fff;
     text-align: center;
 }
@@ -241,12 +244,12 @@ p {
     /* Swirly */
 
     .swirl{
-        width:400px;
-        height:400px;
+        width:300px;
+        height:300px;
         position:relative;
         filter:blur(4px) hue-rotate(0deg);
         margin:40px;
-        animation:swirlSpin 0.5s linear 10;
+        animation:swirlSpin 0.5s linear infinite;
         display:inline-block;
       }
       
@@ -259,26 +262,26 @@ p {
       }
       
       .swirl div:first-child{
-        width:400px;
-        height:400px;
+        width:300px;
+        height:300px;
         animation:swirlOpacityFirst 3s ease;
       }
       
       .swirl div:nth-child(2){
-        width:300px;
-        height:300px;
-        top:50px;
-        left:50px;
-        transform:rotate(50deg);
+        width:225px;
+        height:225px;
+        top:37.5px;
+        left:37.5px;
+        transform:rotate(100deg);
         animation:swirlOpacitySecond 4s ease;
       }
       
       .swirl div:nth-child(3){
-        width:200px;
-        height:200px;
-        top:100px;
-        left:100px;
-        transform:rotate(100deg);
+        width:150px;
+        height:150px;
+        top:75px;
+        left:75px;
+        transform:rotate(200deg);
         animation:swirlOpacityThird 5s ease;
       }
       
@@ -298,15 +301,15 @@ p {
       }
       
       .swirl.swirlIn div:first-child{
-        animation:swirlInOpacityFirst 5s ease;
+        animation:swirlInOpacityFirst 5s ease infinite;
       }
       
       .swirl.swirlIn div:nth-child(2){
-        animation:swirlInOpacitySecond 5s ease;
+        animation:swirlInOpacitySecond 5s ease infinite;
       }
       
       .swirl.swirlIn div:nth-child(3){
-        animation:swirlInOpacityThird 5s ease;
+        animation:swirlInOpacityThird 5s ease infinite;
       }
       
       @keyframes swirlSpin{
