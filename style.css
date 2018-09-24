@@ -1,15 +1,15 @@
 /* Core Styles */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @font-face {
     font-family: 'arkham';
     src: url('img/JMH\ Arkham.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 body {
     margin:0;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #333;
     color: #fff;
     font-size: 1.1em;
